@@ -20,8 +20,8 @@ python3 scripts/build_theme.py
 ./install.sh
 ```
 
-Then **System Settings â†’ Appearance â†’ Global Theme** â†’ HarmonyOS NEXT Surge.
+Then **System Settings ’ Appearance ’ Global Theme** ’ HarmonyOS NEXT Surge.
 
-Icons also appear on their original Android package ids (`com.huawei.camera.png`, â€¦) plus aliases such as `org.kde.dolphin`, `org.kde.systemsettings`, `org.kde.gwenview`.
+Icons also appear on their original Android package ids (`com.huawei.camera.png`, ¦) plus aliases such as `org.kde.dolphin`, `org.kde.systemsettings`, `org.kde.gwenview`.
 
-Re-run the build after editing `ALIASES` in `scripts/build_theme.py` to cover more apps. The `Icon=` key is in each appâ€™s `.desktop` file under `/usr/share/applications/`.
+Re-run the build after editing `ALIASES` in `scripts/build_theme.py` to cover more apps. The `Icon=` key is in each apps `.desktop` file under `/usr/share/applications/`.
